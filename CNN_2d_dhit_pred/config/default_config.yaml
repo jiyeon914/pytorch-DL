@@ -1,0 +1,19 @@
+# defaults:
+#   - config
+
+# config:
+run_name: "20240125 baseline CNN 0.5T_L"
+file_dir: "D:/Research/01_TurbGAN"
+data_dir: "D:/Research/00_Data/2D_DHIT/resolution 128"
+data_res: 128
+seq_length: 100
+nt: 20 # lead time, number of data time-steps to predict
+start: 150
+epochs: 200
+batch_size: 32
+lr: 1e-4
+device: "cuda"
+
+hydra:
+  run:
+    dir: ../outputs/${now:%Y-%m-%d}/${now:%H-%M-%S}  
