@@ -5,6 +5,8 @@
 run_name: "20240125 baseline CNN 0.5T_L"
 file_dir: "D:/Research/01_TurbGAN"
 data_dir: "D:/Research/00_Data/2D_DHIT/resolution 128"
+# file_dir: "/data/jykim3994/01_TurbGAN" # 서버용 directory
+# data_dir: "/data/jykim3994/0.Data/2D DHIT/resolution 128"
 data_res: 128
 seq_length: 100
 nt: 20 # lead time, number of data time-steps to predict

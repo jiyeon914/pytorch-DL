@@ -10,7 +10,7 @@ def setup_logging(cfg):
 def init_file(file_path, variables, zone_name):
     with open(file_path, 'w') as fw:
         fw.write(f'VARIABLES={variables}\n')
-        fw.write(f'Zone T={zone_name}')
+        fw.write(f'Zone T={zone_name}\n')
         # fw.close()
 
 def prepare_device(n_gpu_use):
